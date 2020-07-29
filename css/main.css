@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+:root{
+    --color-green: #F6F6F6;
+    --background: #FFFFFF;
+    --line-color: #3D3D3D;
+    --block-color:#FF7171;
+    --little-line-color: #989898;
+}
