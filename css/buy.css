@@ -1,0 +1,121 @@
+p, h1, h2, span, button {
+    margin: 0;
+    padding: 0;
+}
+
+.block-buy {
+    color: var(--line-color);
+    background-color: var(--background);
+    height: 1116px;
+    width: 100%;
+}
+
+.block-buy-container {
+    margin: 129px 250px 157px 260px;
+}
+
+.buy-h1 {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.34px;
+}
+
+.buy-p {
+    font-size: 24px;
+    line-height: 38px;
+    width: 564px;
+    letter-spacing: -0.47px;
+}
+
+.btn-buy {
+    width: 146px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: -0.51px;
+    outline: none;
+}
+
+.btn-buy:first-child {
+    border: 2px solid var(--block-color);
+    color: var(--background);
+    background-color: var(--block-color);
+}
+
+.btn-buy:last-child {
+    border: 2px solid var(--block-color);
+    color: var(--block-color);
+    background-color: var(--background);
+}
+
+.price-cont {
+    width: 445px;
+    height: 527px;
+    border-radius: 12px;
+}
+
+.price-cont:first-child {
+    border: 2px solid var(--line-color);
+    margin-right: 30px;
+}
+
+.price-cont:last-child {
+    border: 2px solid var(--block-color);
+    background-color: var(--block-color);
+    color: var(--background);
+}
+
+.span-price {
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: -1.78px;
+    font-weight: bold;
+}
+
+.h2-price {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.64px;
+}
+
+.p-price {
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.47px;
+    width: 381px;
+    text-align: center;
+}
+
+.btn-price-first {
+    width: 381px;
+    outline: none;
+    height: 71px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.68px;
+    border: 2px solid var(--line-color);
+    background-color: var(--background);
+    color: var(--line-color);
+}
+
+.btn-price {
+    width: 381px;
+    outline: none;
+    height: 71px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.68px;
+    border: 2px solid var(--background);
+    background-color: var(--block-color);
+    color: var(--background);
+}
+
+
+.block-price-buy {
+    display: flex;
+}
+
