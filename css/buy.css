@@ -1,0 +1,380 @@
+p,
+h1,
+h2,
+span,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.block-buy {
+    color: var(--line-color);
+    background-color: var(--background);
+    height: 1116px;
+    width: 100%;
+}
+
+.block-buy-container {
+    margin: 129px 260px 157px 260px;
+}
+
+.block-buy-info-header {
+    text-align: center;
+}
+
+.buy-h1 {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.34px;
+    margin-bottom: 18px;
+    padding-left: 80px;
+}
+
+.buy-p {
+    padding-left: 90px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 38px;
+    width: 564px;
+    letter-spacing: -0.47px;
+    margin-bottom: 39px;
+}
+
+.btn-buy {
+    height: 48px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: -0.51px;
+    outline: none;
+}
+
+.btn-buy:first-child {
+    margin-right: 9.6px;
+    width: 123px;
+    border: 2px solid var(--block-color);
+    color: var(--background);
+    background-color: var(--block-color);
+}
+
+.btn-buy:last-child {
+    width: 145px;
+    border: 2px solid var(--block-color);
+    color: var(--block-color);
+    background-color: var(--background);
+}
+
+.price-cont {
+    width: 450px;
+    height: 430px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.price-cont:first-child {
+    margin-right: 10px;
+    border: 2px solid var(--line-color);
+    margin-right: 24px;
+}
+
+.price-cont:last-child {
+    border: 2px solid var(--block-color);
+    background-color: var(--block-color);
+    color: var(--background);
+}
+
+.span-price {
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: -1.78px;
+    font-weight: bold;
+}
+
+.h2-price {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.64px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.p-price {
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.47px;
+    width: 381px;
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.btn-price-first {
+    width: 381px;
+    outline: none;
+    height: 71px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.68px;
+    border: 2px solid var(--line-color);
+    background-color: var(--background);
+    color: var(--line-color);
+}
+
+.btn-price {
+    width: 381px;
+    outline: none;
+    height: 71px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.68px;
+    border: 2px solid var(--background);
+    background-color: var(--block-color);
+    color: var(--background);
+}
+
+
+.block-price-buy {
+    display: flex;
+}
+
+.price-cont {
+    padding: 64px 32px 32px 32px;
+}
+
+.buy-button {
+    padding-left: 102px;
+    margin-bottom: 44px;
+}
+
+@media only screen and (max-width: 1125px) {
+
+    .block-buy-container {
+        margin: 129px 260px 157px 140px;
+    }
+
+    .buy-h1 {
+        padding-left: 190px;
+    }
+
+    .buy-p {
+        padding-left: 170px;
+    }
+
+    .buy-button {
+        padding-left: 220px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .block-buy-container {
+        margin: 129px 220px 157px 70px;
+    }
+
+    .buy-h1 {
+        padding-left: 210px;
+    }
+
+    .buy-p {
+        padding-left: 190px;
+    }
+
+    .buy-button {
+        padding-left: 220px;
+    }
+
+}
+
+@media only screen and (max-width: 1020px) {
+    .buy-h1 {
+        padding-left: 160px;
+    }
+
+    .block-buy-container {
+        margin: 129px 190px 157px 50px;
+    }
+
+    .price-cont {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .price-cont {
+        width: 350px;
+    }
+
+    .h2-price {
+        font-size: 28px;
+    }
+
+    .p-price {
+        width: 371px;
+        margin-bottom: 40px;
+    }
+
+    .btn-price-first {
+        width: 361px;
+    }
+
+    .btn-price {
+        width: 361px;
+    }
+
+    .buy-h1 {
+        padding-left: 180px;
+    }
+
+    .block-buy-container {
+        margin: 129px 150px 157px 50px;
+    }
+
+    .buy-button {
+        padding-left: 150px;
+    }
+
+    .buy-p {
+        padding-left: 180px;
+    }
+
+}
+
+
+@media only screen and (max-width: 930px) {
+    .block-buy-container {
+        margin: 129px 190px 157px 15px;
+    }
+
+    .buy-p {
+        padding-left: 150px;
+    }
+
+    .buy-button {
+        padding-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .block-buy-container {
+        margin: 129px 150px 157px 230px;
+    }
+
+    .buy-p {
+        padding-left: 150px;
+    }
+
+    .buy-button {
+        padding-left: 200px;
+    }
+
+    .block-price-buy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buy-p {
+        padding-left: 0px;
+        width: 430px;
+    }
+
+    .buy-h1 {
+        padding-left: -0px;
+    }
+
+    .buy-button {
+        padding-left: 0px;
+    }
+
+    .price-cont {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 777px) {
+    .block-buy-container {
+        margin: 129px 150px 157px 130px;
+    }
+}
+
+@media only screen and (max-width: 741px) {
+    .block-buy-container {
+        margin: 129px 190px 157px 100px;
+    }
+}
+
+@media only screen and (max-width: 741px) {
+    .block-buy-container {
+        margin: 129px 190px 157px 80px;
+    }
+}
+
+
+@media only screen and (max-width: 666px) {
+    .block-buy-container {
+        margin: 129px 0px 157px 20px;
+    }
+
+    .price-cont {
+        width: 300px;
+    }
+
+    .h2-price {
+        font-size: 28px;
+    }
+
+    .p-price {
+        width: 301px;
+        margin-bottom: 40px;
+    }
+
+    .btn-price-first {
+        width: 301px;
+    }
+
+    .btn-price {
+        width: 301px;
+    }
+
+    .buy-p {
+        width: 350px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 412px) {
+
+    .price-cont {
+        width: 265px;
+    }
+
+    .h2-price {
+        font-size: 28px;
+    }
+
+    .p-price {
+        width: 260px;
+        margin-bottom: 20px;
+    }
+
+    .btn-price-first {
+        width: 240px;
+    }
+
+    .btn-price {
+        width: 240px;
+    }
+
+    .buy-p {
+        width: 340px;
+
+    }
+
+    .buy-h1 {
+        font-size: 50px;
+    }
+}
