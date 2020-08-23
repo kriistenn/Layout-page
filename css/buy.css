@@ -57,12 +57,25 @@ button {
     background-color: var(--block-color);
 }
 
+.btn-buy:first-child:hover {
+    border: 2px solid var(--line-color);
+    color: var(--block-color);
+    background-color: var(--background);
+}
+
 .btn-buy:last-child {
     width: 145px;
     border: 2px solid var(--block-color);
     color: var(--block-color);
     background-color: var(--background);
 }
+
+.btn-buy:last-child:hover {
+    border: 2px solid var(--background);
+    color: var(--background);
+    background-color: var(--block-color);
+}
+
 
 .price-cont {
     width: 450px;
@@ -121,6 +134,12 @@ button {
     color: var(--line-color);
 }
 
+.btn-price-first:hover{
+    border: 2px solid var(--line-color);
+    background-color: var(--line-color);
+    color: var(--background);
+}
+
 .btn-price {
     width: 381px;
     outline: none;
@@ -132,6 +151,12 @@ button {
     border: 2px solid var(--background);
     background-color: var(--block-color);
     color: var(--background);
+}
+
+.btn-price:hover{
+    border: 2px solid var(--block-color);
+    background-color: var(--background);
+    color: var(--block-color);
 }
 
 
@@ -289,6 +314,10 @@ button {
 
     .price-cont {
         margin-bottom: 15px;
+    }
+
+    .block-buy {
+        height: 100%;
     }
 }
 

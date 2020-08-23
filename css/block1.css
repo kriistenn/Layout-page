@@ -119,12 +119,11 @@
         line-height: 81px;
         letter-spacing: -2px;
     }
-
-    /* .b-p {
-        font-size: 24px;
-        line-height: 38px;
-        margin-bottom: 22px;
-    } */
+    
+    .container_page_block1 {
+        height: 100%;
+    } 
+    
 }
 
 

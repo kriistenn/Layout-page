@@ -19,7 +19,7 @@ button {
 }
 
 .block-block2 {
-    padding: 120px 284px 129px 180px;
+    padding: 120px 250px 129px 180px;
 }
 
 .block2-info {
@@ -148,7 +148,6 @@ button {
 
     .block2_container {
         width: 110%;
-        height: 2000px;
     }
 }
 
@@ -233,6 +232,10 @@ button {
     .block2-card-p {
         margin-bottom: 20px;
         line-height: 25px;
+    }
+    .block2_container {
+        width: 110%;
+        height: 1700px;
     }
 }
 
